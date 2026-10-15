@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.pantalla-principal {
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #FFFFFF 70%, #777777 85%, #0D0D0D 100%);
+}
+
+.pantalla-principal header {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.pantalla-principal header img {
+    width: 250px;
+    height: auto;
+}
+
+.pantalla-principal section {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.pantalla-principal h1 {
+    color: #0D0D0D;
+    font-family: Georgia, serif;
+    font-size: 1.25rem;
+}
+
+.pantalla-principal section {
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.pantalla-principal section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Barra de carga */
+.pantalla-principal footer {
+    position: absolute;
+    top: 78%;
+    left: 0;
+    width: 100%;
+    height: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.bara-carga {
+    width: 130px;
+    height: 4px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bara-carga-progreso {
+    display: block;
+    width: 90%;
+    height: 100%;
+    background-color: #E50114;
+}

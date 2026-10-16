@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    width: 402px;
+    height: auto;
+}
+
+.pantalla-principal {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px 16px 80px;
+
+}
+.encabezado {
+    width: 100%;
+}
+
+.encabezado div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.encabezado h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.encabezado div a img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.encabezado p {
+    margin-top: 25px;
+    font-size: 14px;
+}
+.encabezado .segundo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.encabezado .segundo h2 {
+    text-align: left;
+    margin-left: -100px;
+}
+.encabezado .segundo .color-red {
+    color: red;
+}
+.encabezado .segundo p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+
+.subir-foto {
+    width: 100%;
+    padding: 25px 15px 12px;
+    border: 1px solid #aaaaaa;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.subir-foto  img {
+    width: 76px;
+    height: 76px;
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    background-color: #fde2e5;
+    object-fit: contain;
+}
+
+.subir-foto h3 {
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+
+.subir-foto p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.subir-foto form {
+    width: 100%;
+}
+
+.subir-foto input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaaaaa;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+
+.aviso {
+    width: 100%;
+    margin: 50px;
+}
+.aviso article {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+
+}
+.aviso article h3 {
+    color: red;
+    margin-bottom: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    max-width: 402px;
+    padding: 10px 5px;
+    border-top: 1px solid #dddddd;
+    background-color: white;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+footer a {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer img {
+    width: 50px;
+    height: 30px;
+    object-fit: contain;
+}

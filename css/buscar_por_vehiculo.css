@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    width: 402px;
+    height: auto;
+}
+
+.pantalla-principal {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px 16px 80px;
+
+}
+.encabezado {
+    width: 100%;
+}
+
+.encabezado div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.encabezado h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.encabezado div img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.encabezado p {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.buscar-vehiculo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.buscar-vehiculo form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buscar-vehiculo form label {
+    font-size: 14px;
+    color: #222222;
+    margin-top: 8px;
+}
+
+.buscar-vehiculo form select {
+    width: 100%;
+    height: 45px;
+    padding: 0 12px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+
+    font-size: 13px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+.buscar-vehiculo form a {
+    border: 1px solid red;
+    border-radius: 7px;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+
+
+.aviso {
+    width: 100%;
+    margin: 50px;
+}
+.aviso div {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    position: absolute;
+    left: 25px;
+}
+.aviso div h3 {
+    color: red;
+    margin-bottom: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 402px;
+    padding: 10px 5px;
+    border-top: 1px solid #dddddd;
+    background-color: white;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+footer a {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer img {
+    width: 50px;
+    height: 30px;
+    object-fit: contain;
+}
